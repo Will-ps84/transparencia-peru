@@ -1,5 +1,14 @@
-requests==2.31.0
-pandas==2.1.0
-python-dotenv==1.0.0
-supabase==2.0.0
-httpx==0.25.0
+# Dependencias del ETL Python — Transparencia Perú
+# Instalar con: pip install -r requirements.txt
+
+# Cliente Supabase
+supabase==2.7.4
+
+# HTTP client async-friendly con soporte de reintentos
+httpx==0.27.0
+
+# Procesamiento de datos
+pandas==2.2.2
+
+# Variables de entorno desde archivo .env (desarrollo local)
+python-dotenv==1.0.1
